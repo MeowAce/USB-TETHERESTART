@@ -16,7 +16,7 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 ---
 
 ## Tampilan
-![Tampilan](img.png)
+![Tampilan](/img/image.png)
 
 ## ⚙️ Instalasi
 
