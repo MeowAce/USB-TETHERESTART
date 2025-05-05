@@ -21,5 +21,6 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 ```bash
 git clone https://github.com/MeowAce/USB-TETHERESTART.git
 cd USB-TETHERESTART
-chmod +x menu.sh
-./menu.sh
+chmod +x usb-tere
+mv useb-tere /loca/bin/ OR PATH
+usb-tere
