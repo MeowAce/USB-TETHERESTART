@@ -18,6 +18,13 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 ## Tampilan
 ![Tampilan](/img/image.png)
 
+
+## Cek PATH
+```bash
+echo $PATH
+
+
+
 ## ⚙️ Instalasi
 
 1. Clone repo:
