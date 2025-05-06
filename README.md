@@ -22,7 +22,7 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 ## Cek PATH
 ```bash
 echo $PATH
-
+```
 
 
 ## ⚙️ Instalasi
@@ -34,3 +34,4 @@ cd USB-TETHERESTART
 chmod +x usb-tere
 mv usb-tere /local/bin/ #OR PATH
 usb-tere
+```
