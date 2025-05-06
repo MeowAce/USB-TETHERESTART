@@ -23,6 +23,9 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 ```bash
 echo $PATH
 ```
+## PACKAGE YANG DIINSTALL 
+1. BASH
+2. ADB
 
 
 ## ⚙️ Instalasi
