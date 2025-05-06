@@ -23,10 +23,15 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 ```bash
 echo $PATH
 ```
-## PACKAGE YANG DIINSTALL 
-1. BASH
-2. ADB
 
+## 📦 Paket yang Dibutuhkan (untuk OpenWrt)
+
+Agar script ini bisa berjalan di OpenWrt, pastikan paket-paket berikut sudah terinstall:
+
+```bash
+opkg update
+opkg install bash coreutils sleep adb
+```
 
 ## ⚙️ Instalasi
 
