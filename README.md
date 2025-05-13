@@ -43,3 +43,8 @@ chmod +x usb-tere
 mv usb-tere /local/bin/ #OR PATH
 usb-tere
 ```
+
+## ⚙️ Cara Kerja
+```bash
+usb-tere
+```
