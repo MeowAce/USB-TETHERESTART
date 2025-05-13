@@ -32,10 +32,10 @@ while true; do
       echo
       echo -e "\e[33mMemulai Proses Restart...\e[0m"
       # Matikan tethering
-      if adb shell service call tethering 3 i32 0; then
+      if adb shell svc usb setFunctions; then
       sleep 2
       # Nyalakan tethering
-      if adb shell service call tethering 3 i32 1; then
+      if adb shell svc usb setFunctions rndis; then
       echo -e "\e[32m✔ Proses Restart Selesai!\e[0m"
       else
       echo -e "\e[31m✘ Gagal menyalakan USB Tethering.\e[0m"
@@ -48,14 +48,14 @@ while true; do
     2)
       echo
       echo -e "\e[33mMenyalakan USB Tethering...\e[0m"
-      adb shell service call tethering 3 i32 1
+      adb adb shell svc usb setFunctions rndis
       echo -e "\e[32m✔ USB Tethering ON\e[0m"
       pause
       ;;
     3)
       echo
       echo -e "\e[33mMematikan USB Tethering...\e[0m"
-      adb shell service call tethering 3 i32 0
+      aadb shell svc usb setFunctions
       echo -e "\e[31m✘ USB Tethering OFF\e[0m"
       pause
       ;;
