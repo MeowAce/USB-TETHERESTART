@@ -11,7 +11,7 @@ Script sederhana untuk **mengaktifkan, menonaktifkan, dan me-restart koneksi USB
 - ✅ ON USB Tethering
 - ✅ OFF USB Tethering
 - ✅ Restart koneksi USB Tethering
-- 🧩 Dirancang untuk Android 11 (bisa saja bekerja di versi lain)
+- 🧩 Dirancang untuk Android 10 (bisa saja bekerja di versi lain)
 
 ---
 
